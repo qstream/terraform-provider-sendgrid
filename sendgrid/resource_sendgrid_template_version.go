@@ -9,7 +9,7 @@ import (
 
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/mitchellh/go-homedir"
-	"github.com/opteemister/terraform-client-sendgrid"
+	"github.com/qstream/terraform-client-sendgrid"
 )
 
 func resourceSendgridTemplateVersion() *schema.Resource {
