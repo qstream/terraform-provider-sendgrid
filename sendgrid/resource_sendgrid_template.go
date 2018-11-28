@@ -20,14 +20,14 @@ func resourceSendgridTemplate() *schema.Resource {
 		},
 
 		Schema: map[string]*schema.Schema{
-			"name": &schema.Schema{
+			"name": {
 				Type:     schema.TypeString,
 				Required: true,
 			},
-			"generation": &schema.Schema{
-                Type:     schema.TypeString,
-                Optional: true,
-            },
+			"generation": {
+				Type:     schema.TypeString,
+				Optional: true,
+			},
 		},
 	}
 }
